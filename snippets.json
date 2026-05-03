@@ -1,0 +1,65 @@
+{
+    "Create function": {
+		"prefix": "ms:function",
+		"body": [
+			"fn name$1() {",
+            "// function statements go here.",
+            "}"
+		],
+		"description": "Create an empty Minsc function"
+	},
+
+    "1-of-2 keys": {
+		"prefix": "ms:logicalOperators:1-of-2-keys",
+		"body": [
+			"// One of two keys",
+            "pk(A) || pk(B$1)"
+		],
+		"description": "1 of 2 keys"
+	},
+
+    "Traditional preimage-based HTLC": {
+		"prefix": "ms:logicalOperators:preimage-based-htlc",
+		"body": [
+			"// Traditional preimage-based HTLC",
+            "(pk(A) && sha256(H)) || (pk(B) && older(10$1))"
+		],
+		"description": "Traditional preimage-based HTLC"
+	},
+
+    "All of four keys": {
+		"prefix": "ms:logicalOperators:all-four-keys",
+		"body": [
+			"// All of four keys",
+            "pk(A) && pk(B) && pk(C) && pk(D) $1"
+		],
+		"description": "All of four keys"
+	},
+
+    "2-of-3 escrow contract": {
+		"prefix": "ms:thresholdOperators:2-of-3-escrow-contract",
+		"body": [
+			"// 2-of-3 escrow contract",
+            "2 of [ pk(buyer_pk), pk(seller_pk), pk(arbiter_pk) $1]"
+		],
+		"description": "2-of-3 escrow contract"
+	},
+
+    "Likely branch": {
+		"prefix": "ms:executionProbabilities:likely-branch",
+		"body": [
+			"// One of two keys, A 10x more likely than B",
+            "10@pk(A) || pk(B) $1"
+		],
+		"description": "Likely branch"
+	},
+
+    "Time lock": {
+		"prefix": "ms:timeAndDurations:lock-some-coins-until-2030",
+		"body": [
+			"// Lock some coins until 2030",
+            "pk(A) && after(2030-01-01) $1"
+		],
+		"description": "Time lock utils specific date"
+	}
+}

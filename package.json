@@ -32,7 +32,13 @@
         "scopeName": "source.minsc",
         "path": "./syntaxes/minsc.tmLanguage.json"
       }
-    ]
+    ],
+    "snippets": [
+			{
+				"language": "minsc",
+				"path": "./snippets.json"
+			}
+		]
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
