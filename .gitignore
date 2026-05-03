@@ -5,3 +5,4 @@ vsc-extension-quickstart.md
 
 *.txt
 .DS_Store
+.vscode

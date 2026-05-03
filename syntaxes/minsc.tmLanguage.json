@@ -1,0 +1,85 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Minsc",
+  "scopeName": "source.minsc",
+
+  "patterns": [
+    { "include": "#variables" },
+    { "include": "#functions" },
+    { "include": "#policy-functions" },
+    { "include": "#minsc-helper" },
+    { "include": "#operators" },
+    { "include": "#numeric-constants" },
+    { "include": "#comments" },
+    { "include": "#strings" }
+  ],
+
+  "repository": {
+    "variables": {
+      "patterns": [
+        {
+          "name": "variable",
+          "match": "\\$[a-zA-Z0-9_]+"
+        }
+      ]
+    },
+
+    "functions": {
+      "patterns": [
+        {
+          "name": "entity.name.function",
+          "match": "\\b(fn)\\b"
+        }
+      ]
+    },
+
+    "policy-functions": {
+      "patterns": [
+        {
+          "name": "keyword.control.minsc",
+          "match": "\\b(pk|older|after|of|hash160|sha256|likely|address|heightwise|wsh|sh|miniscript|any|all)\\b"
+        }
+      ]
+    },
+
+    "operators": {
+      "patterns": [
+        {
+          "name": "keyword.operator",
+          "match": ""
+        }
+      ]
+    },
+
+    "numeric-constants": {
+      "patterns": [
+        {
+          "name": "constant.numeric",
+          "match": "\\b-?\\d+(\\.\\d+)?([eE][+-]?\\d+)?\\b"
+        }
+      ]
+    },
+
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.minified",
+          "begin": "//",
+          "end": "$"
+        }
+      ]
+    },
+
+    "strings": {
+      "name": "string.quoted.double.minsc",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.minsc",
+          "match": "\\\\."
+        }
+      ]
+    }
+  }
+}

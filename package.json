@@ -9,13 +9,28 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:minsc"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
+    "languages": [
       {
-        "command": "minsc.helloWorld",
-        "title": "Hello World"
+        "id": "minsc",
+        "extensions": [
+          ".minsc"
+        ],
+        "aliases": [
+          "Minsc"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "minsc",
+        "scopeName": "source.minsc",
+        "path": "./syntaxes/minsc.tmLanguage.json"
       }
     ]
   },
