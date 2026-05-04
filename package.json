@@ -1,20 +1,33 @@
 {
   "name": "minsc",
-  "displayName": "minsc",
+  "displayName": "Minsc",
   "description": "VSCode Extension for Bitcoin's Minsc Programming language & Miniscript Policy Language",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.118.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Snippets",
+    "Linters",
+    "Debuggers",
+    "Formatters"  
   ],
-  "activationEvents": [
-    "onLanguage:minsc"
-  ],
+  "icon": "./icons/logo.png",
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "languages": [
+      {
+        "id": "minsc",
+        "extensions": [
+          ".minsc"
+        ],
+        "icon": {
+          "light": "./icons/minsc-light.svg",
+          "dark": "./icons/minsc-dark.svg"
+        }
+      },
       {
         "id": "minsc",
         "extensions": [
@@ -34,11 +47,11 @@
       }
     ],
     "snippets": [
-			{
-				"language": "minsc",
-				"path": "./snippets.json"
-			}
-		]
+      {
+        "language": "minsc",
+        "path": "./snippets.json"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",

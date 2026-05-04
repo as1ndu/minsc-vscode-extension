@@ -10,6 +10,7 @@ VSCode Extension for Bitcoin's [Minsc Programming language](https://min.sc/)
 - [x] Auto complete
 - [x] Code Snippets
 - [] Hover messages
+- [x] Icon support for .minsc files
 - [] Compile to Script Opcodes
 - [] Analyze Minsc code
 - [] Linting & Error Messages

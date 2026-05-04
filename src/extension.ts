@@ -48,7 +48,6 @@ export function activate(context: vscode.ExtensionContext) {
 
  context.subscriptions.push(auto_complete_provider);
 
-
 }
 
 export function deactivate() {}
