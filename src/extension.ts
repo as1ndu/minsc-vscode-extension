@@ -1,27 +1,54 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
-	// console.log('Congratulations, your extension "minsc" is now active!');  
+ const auto_complete_provider = vscode.languages.registerCompletionItemProvider({ language: 'minsc' }, {
+	provideCompletionItems(_document: vscode.TextDocument, _position: vscode.Position, _token: vscode.CancellationToken, _context: vscode.CompletionContext) {
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
+		let codeCompletionList: vscode.ProviderResult<vscode.CompletionItem[] | vscode.CompletionList<vscode.CompletionItem>> = [];
 
-	const disposable = vscode.commands.registerCommand('minsc.helloWorld', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from minsc!');
-	});
+		/*
+		pk|older|after|of|hash160|sha256|likely|address|heightwise|wsh|sh|miniscript|any|all
+		*/
 
-	context.subscriptions.push(disposable);
+		const pkCompletion         = new vscode.CompletionItem('pk');
+		const olderCompletion      = new vscode.CompletionItem('older');
+		const afterCompletion      = new vscode.CompletionItem('after');
+		const ofCompletion         = new vscode.CompletionItem('of');
+		const hash160Completion    = new vscode.CompletionItem('hash160');
+		const sha256Completion     = new vscode.CompletionItem('sha256');
+		const likelyCompletion     = new vscode.CompletionItem('likely');
+		const addressCompletion    = new vscode.CompletionItem('address');
+		const heightwiseCompletion = new vscode.CompletionItem('heightwise');
+		const wshCompletion        = new vscode.CompletionItem('wsh');
+		const shCompletion         = new vscode.CompletionItem('sh');
+		const miniscriptCompletion = new vscode.CompletionItem('miniscript');
+		const anyCompletion        = new vscode.CompletionItem('any');
+		const allCompletion        = new vscode.CompletionItem('all');
+
+		codeCompletionList.push(
+			pkCompletion, 
+			olderCompletion, 
+			afterCompletion, 
+			ofCompletion, 
+			hash160Completion, 
+			sha256Completion, 
+			likelyCompletion, 
+			addressCompletion, 
+			heightwiseCompletion, 
+			wshCompletion, 
+			shCompletion, 
+			miniscriptCompletion, 
+			anyCompletion, 
+			allCompletion)
+
+		return codeCompletionList
+	},
+ });
+
+ context.subscriptions.push(auto_complete_provider);
+
+
 }
 
-// This method is called when your extension is deactivated
 export function deactivate() {}
