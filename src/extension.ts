@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { key_word_descriptions } from './key-word-descriptions';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -46,7 +47,22 @@ export function activate(context: vscode.ExtensionContext) {
 	},
  });
 
+const hover_provider = vscode.languages.registerHoverProvider({ language: 'minsc' }, {
+  provideHover(_document: vscode.TextDocument, _position: vscode.Position, _token: vscode.CancellationToken) {
+
+	const wordRange = _document.getWordRangeAtPosition(_position);
+	const word      = _document.getText(wordRange);
+
+	const map  = key_word_descriptions;
+
+	const word_description: string = map[word as keyof typeof map]
+    return new vscode.Hover(word_description);
+
+  }
+});
+
  context.subscriptions.push(auto_complete_provider);
+ context.subscriptions.push(hover_provider)
 
 }
 
