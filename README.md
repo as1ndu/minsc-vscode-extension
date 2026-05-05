@@ -1,7 +1,11 @@
 # Minsc VSCode Extension
 
 VSCode Extension for Bitcoin's [Minsc Programming language](https://min.sc/)
+
 > <img src="/icons/logo.png" align="right" width="64" height="64" />
+
+>**Minsc** is a high-level scripting language for expressing Bitcoin Script spending conditions. It is based on the [Miniscript Policy language](https://bitcoin.sipa.be/miniscript/), with additional features and syntactic sugar sprinkled on top, including variables, functions, infix notation, and more.
+
 
 
 ## Features
