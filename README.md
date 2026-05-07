@@ -35,14 +35,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 ### Syntax highlighting
 
 <div align="center">
-  <video 
-    src      = "https://github.com/user-attachments/assets/d51d3afc-7564-499c-9600-66dd1e05abad" 
-    muted 
-    autoplay 
-    loop 
-    controls
-    style  = "max-width: 100%;">
-  </video>
+  <img src="/media/gifs/autocomplete.webp" />
 </div>
 
 
