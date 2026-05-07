@@ -7,3 +7,8 @@ vsc-extension-quickstart.md
 *.txt
 .DS_Store
 .vscode
+
+src/compiler.ts
+src/diagnostics.ts
+
+.gitignore
