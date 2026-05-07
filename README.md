@@ -35,7 +35,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 ### Syntax highlighting
 
 <div align="center">
-  <video src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mp4" controls="controls" muted="muted" style="max-width: 100%;">
+  <video src="https://github.com/user-attachments/assets/f1722198-a27c-4ca0-ad25-6f109109aa57" controls="controls" muted="muted" style="max-width: 100%;">
   </video>
 </div>
 
