@@ -37,13 +37,8 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 <div align="center">
   <video 
     src      = "https://github.com/user-attachments/assets/d51d3afc-7564-499c-9600-66dd1e05abad" 
-    preload  = "auto"
-    loop     = "true"
-    loading  = "eager"
-    autoplay = "true"
-    controls = "controls" 
-    muted    = "muted" 
-    style    = "max-width: 100%;">
+    style    = "max-width: 100%;"
+    autoplay muted loop>
   </video>
 </div>
 
