@@ -32,6 +32,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ## Usage
 
+### Syntax highlighting
 ### Comment toggling
 ### Auto complete
 ### Code Snippets
