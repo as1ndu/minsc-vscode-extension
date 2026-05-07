@@ -36,7 +36,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/664f3363-994c-4f85-b44d-bd825ae75198" 
+    src      = "https://github.com/user-attachments/assets/d51d3afc-7564-499c-9600-66dd1e05abad" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
@@ -59,7 +59,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/a7784499-5a48-452e-b7e7-1b4fa6f19c90" 
+    src      = "https://github.com/user-attachments/assets/664f3363-994c-4f85-b44d-bd825ae75198" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
@@ -81,7 +81,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/d51d3afc-7564-499c-9600-66dd1e05abad" 
+    src      = "https://github.com/user-attachments/assets/a7784499-5a48-452e-b7e7-1b4fa6f19c90" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
