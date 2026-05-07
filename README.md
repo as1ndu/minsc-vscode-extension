@@ -33,16 +33,16 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 ## Usage
 
 ### Syntax highlighting
-<img src="/media/gifs/syntax-highligting.gif" />
+<img src="/media/gifs/syntax.gif" />
 
 ### Comment toggling
-<img src="/media/gifs/comment-toggling.gif" />
+<img src="/media/gifs/comment.gif" />
 
 ### Auto complete
 <img src="/media/gifs/auto-complete.gif" />
 
 ### Code Snippets
-<img src="/media/gifs/code-snippets.gif" />
+<img src="/media/gifs/snippet.gif" />
 
 ### Hover Messages
 <img src="/media/gifs/hover.gif" />
