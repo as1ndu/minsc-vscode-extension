@@ -34,12 +34,10 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ### Syntax highlighting
 
-<p>
-Video demo
-    <video width="320" height="240" controls>
-    <source src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mp4" type="video/mp4">
-    </video>
-</p>
+<div align="center">
+  <video src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mp4" controls="controls" muted="muted" style="max-width: 100%;">
+  </video>
+</div>
 
 
 ### Comment toggling
