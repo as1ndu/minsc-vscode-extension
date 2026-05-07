@@ -36,7 +36,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/f1722198-a27c-4ca0-ad25-6f109109aa57" 
+    src      = "https://github.com/user-attachments/assets/664f3363-994c-4f85-b44d-bd825ae75198" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
@@ -48,7 +48,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/e8398c34-64e7-46ba-b406-9bd8ba9fce60" 
+    src      = "https://github.com/user-attachments/assets/633eb413-7966-4514-b60a-8c0fa25ed4be" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
@@ -59,7 +59,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/2937ce86-7394-4d45-9e01-964dc21151f5" 
+    src      = "https://github.com/user-attachments/assets/a7784499-5a48-452e-b7e7-1b4fa6f19c90" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
@@ -70,7 +70,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/2d9bc6a4-a5bc-4c46-aabf-cb9840f6e30a" 
+    src      = "https://github.com/user-attachments/assets/f23b4710-4e41-4553-85f6-3679f1c3f3e4" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
@@ -81,7 +81,7 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 <div align="center">
   <video 
-    src      = "https://github.com/user-attachments/assets/629492f6-edc6-41dc-8ca2-2bc06c9e5ed4" 
+    src      = "https://github.com/user-attachments/assets/d51d3afc-7564-499c-9600-66dd1e05abad" 
     controls = "controls" 
     muted    = "muted" 
     style    = "max-width: 100%;">
