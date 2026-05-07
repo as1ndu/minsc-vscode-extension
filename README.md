@@ -33,21 +33,26 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 ## Usage
 
 ### Syntax highlighting
+
 <video loading="eager" loop="true" preload="auto" src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" autoplay muted>
 </video>
 
 ### Comment toggling
+
 <video loading="eager" loop="true" preload="auto" src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" autoplay muted>
 </video>
 
 ### Auto complete
+
 <video loading="eager" loop="true" preload="auto" src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" autoplay muted>
 </video>
 
 ### Code Snippets
+
 <video loading="eager" loop="true" preload="auto" src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" autoplay muted>
 </video>
 
 ### Hover Messages
+
 <video loading="eager" loop="true" preload="auto" src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" autoplay muted>
 </video>
