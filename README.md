@@ -34,7 +34,8 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ### Syntax highlighting
 
-<video src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" controls="controls" muted="muted" style="max-width: 100%;">
+<video width="320" height="240" controls>
+  <source src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" type="video/mp4">
 </video>
 
 <video loading="eager" loop="true" preload="auto" style="max-width: 100%;" src="https://github.com/as1ndu/minsc-vscode-extension/raw/refs/heads/main/media/gifs/autocomplete.mov" autoplay muted>
