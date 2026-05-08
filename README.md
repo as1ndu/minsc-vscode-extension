@@ -32,9 +32,17 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ## Usage
 
+Available features list.
+
+1. [Syntax highlighting](#syntax-highlighting)
+2. [Comment toggling](#comment-toggling)
+3. [Autocomplete](#autocomplete)
+4. [Code Snippets](#code-snippets)
+5. [Hover Messages](#hover-messages)
+
 ### Syntax highlighting
 
-Name your files with a `.minsc` file extension, and then VSCode (or VSCodium) will automatically recognize them. Syntax highlighting and the Minsc logo will be applied automatically.
+Name your files with a `.minsc` file extension and then VSCode (or VSCodium) will automatically recognize them. Syntax highlighting and the Minsc logo will be applied automatically.
 
 <div align="center">
   <img src="/media/syntax.webp" />
@@ -45,7 +53,7 @@ Name your files with a `.minsc` file extension, and then VSCode (or VSCodium) wi
 
 Use the keyboard combination's below to convert an entire line into a comment or code;
 
-| OS             | Shortcut                       |
+| OS             | Comment Shortcut               |
 | ---------------| -------------------------------|
 | MacOS          | <kbd>⌘</kbd> + <kbd>/</kbd>    |
 | Windows, Linux | <kbd>Ctrl</kbd> + <kbd>/</kbd> |
