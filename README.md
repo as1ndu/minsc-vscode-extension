@@ -34,6 +34,8 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ### Syntax highlighting
 
+Name your files with a `.minsc` file extension, and then VSCode (or VSCodium) will automatically recognize them. Syntax highlighting and the Minsc logo will be applied automatically.
+
 <div align="center">
   <img src="/media/syntax.webp" />
 </div>
@@ -41,12 +43,22 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ### Comment toggling
 
+Use the keyboard combination's below to convert an entire line into a comment or code;
+
+| OS             | Shortcut                       |
+| ---------------| -------------------------------|
+| MacOS          | <kbd>⌘</kbd> + <kbd>/</kbd>    |
+| Windows, Linux | <kbd>Ctrl</kbd> + <kbd>/</kbd> |
+
 <div align="center">
   <img src="/media/comments.webp" />
 </div>
 
 
-### Auto complete
+### Autocomplete
+
+Simply type the first character of any keyword and a list of relevant keywords will drop down at the bottom.
+Select the one your looking for.
 
 <div align="center">
   <img src="/media/autocomplete.webp" />
@@ -55,11 +67,15 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 
 ### Code Snippets
 
+Start by typing `ms:`, and you will see a list of code snippets for commonly used Bitcoin Scripts, like hash locks, time locks and multi-sig schemes. 
+
 <div align="center">
   <img src="/media/snippet.webp" />
 </div>
 
 ### Hover Messages
+
+To learn more a Minsc keyword, hover your cursor over the keyword and a description of what it is about will be displayed.
 
 <div align="center">
   <img src="/media/hover.webp" />
