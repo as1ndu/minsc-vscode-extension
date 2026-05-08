@@ -35,50 +35,32 @@ For `.vsix` build files in case you need a specific version check out the `.vsix
 ### Syntax highlighting
 
 <div align="center">
-  <img src="/media/gifs/autocomplete.webp" />
+  <img src="/media/syntax.webp" />
 </div>
 
 
 ### Comment toggling
 
 <div align="center">
-  <video 
-    src      = "https://github.com/user-attachments/assets/633eb413-7966-4514-b60a-8c0fa25ed4be" 
-    controls = "controls" 
-    muted    = "muted" 
-    style    = "max-width: 100%;">
-  </video>
+  <img src="/media/comments.webp" />
 </div>
+
 
 ### Auto complete
 
 <div align="center">
-  <video 
-    src      = "https://github.com/user-attachments/assets/664f3363-994c-4f85-b44d-bd825ae75198" 
-    controls = "controls" 
-    muted    = "muted" 
-    style    = "max-width: 100%;">
-  </video>
+  <img src="/media/autocomplete.webp" />
 </div>
+
 
 ### Code Snippets
 
 <div align="center">
-  <video 
-    src      = "https://github.com/user-attachments/assets/f23b4710-4e41-4553-85f6-3679f1c3f3e4" 
-    controls = "controls" 
-    muted    = "muted" 
-    style    = "max-width: 100%;">
-  </video>
+  <img src="/media/snippet.webp" />
 </div>
 
 ### Hover Messages
 
 <div align="center">
-  <video 
-    src      = "https://github.com/user-attachments/assets/a7784499-5a48-452e-b7e7-1b4fa6f19c90" 
-    controls = "controls" 
-    muted    = "muted" 
-    style    = "max-width: 100%;">
-  </video>
+  <img src="/media/hover.webp" />
 </div>
