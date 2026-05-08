@@ -30,7 +30,7 @@ However, simply using the `.minsc` file extension in VSCode or VSCodium should p
 | VSCode   | <a href="https://marketplace.visualstudio.com/items?itemName=asxndu.minsc">VSCode Market Place</a>  |
 | VSCodium | <a href="https://open-vsx.org/extension/asxndu/minsc">Open VSX Repository</a>  |
 
-For `.vsix` build files in case you need a specific version check out the `.vsix` release [file list](/).
+For `.vsix` build files in case you need a specific version check out the `.vsix` release [file list](https://github.com/as1ndu/minsc-vscode-extension/releases).
 
 ## Usage
 
