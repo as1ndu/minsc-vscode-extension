@@ -12,3 +12,4 @@ src/compiler.ts
 src/diagnostics.ts
 
 .gitignore
+*.vsix

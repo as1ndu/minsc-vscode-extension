@@ -22,10 +22,13 @@ VSCode Extension for Bitcoin's [Minsc Programming language](https://min.sc/)
 
 ## Installation
 
+You can search "Minsc" in the extensions panel on VSCode or VSCodium.
+However, simply using the `.minsc` file extension in VSCode or VSCodium should prompt installation of the extensions.
+
 | Editor   | Installation URL     |
 |----------|----------------------|
-| VSCode   | <a href="#">url</a>  |
-| VSCodium | <a href="#">url</a>  |
+| VSCode   | <a href="https://marketplace.visualstudio.com/items?itemName=asxndu.minsc">VSCode Market Place</a>  |
+| VSCodium | <a href="https://open-vsx.org/extension/asxndu/minsc">Open VSX Repository</a>  |
 
 For `.vsix` build files in case you need a specific version check out the `.vsix` release [file list](/).
 

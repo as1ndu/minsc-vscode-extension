@@ -2,7 +2,7 @@
   "name": "minsc",
   "displayName": "Minsc",
   "description": "VSCode Extension for Bitcoin's Minsc Programming language & Miniscript Policy Language",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "asxndu",
   "icon": "./icons/logo.png",
   "license": "MIT",
